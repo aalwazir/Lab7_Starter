@@ -1,6 +1,3 @@
-
-
-
-
-
-
+# Lab 7
+1.
+I would fit automated tests within a GitHub Action that runs whenever code is pushed. This is the best option because it automatically checks whether new changes break existing functionality before the code is merged or shared. It also makes testing consistent because every push is tested the same way, instead of relying on developers to remember to run tests manually. Manually running tests locally before pushing is less reliable because someone may forget to run them. Running tests only after all development is completed is the weakest option because bugs are found too late, making them harder to fix.
